@@ -1,3 +1,5 @@
+/* BAM Mains CSS override of Bootstrap 4 beta */
+
 h1 {
   font-size: 64px;
   color: #4a4a4a;
@@ -265,12 +267,12 @@ img {
   }
 
   #student button {
-    width: 90%;
+    width: 65%;
     height: 40px;
   }
 
   .center-it {
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
 }
