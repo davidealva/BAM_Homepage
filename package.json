@@ -1,0 +1,37 @@
+{
+    "title": "BAM Homepage Concept",
+    "name": "Bootstrap 4 Gulp App",
+    "version": "4.0.0-beta",
+    "description": "Mockup for BAM homepage using Gulp",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "",
+    "bugs": {
+        "url": "",
+        "email": "info@madebydiesel.com"
+    },
+    "license": "MIT",
+    "author": "David Alvarado",
+    "contributors": [
+        "Made By Diesel (http://madebydiesel.com)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davidealva/BAM_Homepage.git"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0-beta",
+        "jquery": "^3.2.1",
+        "popper.js": "1.12.3"
+    },
+    "devDependencies": {
+        "browser-sync": "2.18.13",
+        "gulp": "^3.9.1"
+    }
+}

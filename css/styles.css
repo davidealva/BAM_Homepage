@@ -1,0 +1,276 @@
+h1 {
+  font-size: 64px;
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+h1.slider{
+  color: #ffffff;
+  padding-bottom: 0px;
+}
+
+h2 {
+  color: #d0011b;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+h4  {
+  font-size: 30px;
+  color: #333333;
+}
+
+#feed h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: #9b9b9b;
+  text-transform: uppercase;
+}
+
+#feed p {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+
+
+a {
+  color: #d0011b;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgba(208, 1, 27, 0.5);
+}
+
+.add-padding {
+  padding-left: 30px;
+}
+
+.center-it {
+  margin-top: 10%;
+}
+
+.squares {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d0011b;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.navbar-top .navbar-nav .nav-link {
+  color: #9b9b9b;
+  font-size: 12px;
+}
+
+.nav-link .fa {
+  color: #d0011b;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-collapse {
+  margin-left: 150px
+}
+
+.logo {
+  position: absolute;
+  width: 120px;
+  z-index: 1000;
+  border: 4px solid #d0011b;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-red {
+  background-color: #d0011b;
+  color: #ffffff;
+}
+
+.custom-toggler.navbar-toggler {
+    border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#d0011b' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 600px;
+  background: no-repeat cover center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button.btn.btn-red.join {
+  width: 200px;
+  height: 35px;
+  border-radius: 4px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.btn.btn-red:hover {
+  background-color: rgba(208, 1, 27, 0.5);
+}
+
+img {
+  width: 100%;
+  height:auto;
+}
+
+.squares img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#feed {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.news-side {
+  border-right: 1px solid #cfcfcf;
+}
+
+#student {
+  height: 450px;
+  background: url('../images/students.png') center center;
+}
+
+#student h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+#student button {
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 300px;
+  height: 72px;
+}
+
+#student button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+}
+
+
+/* Mobile Breakpoint */
+
+@media (max-width: 576px) {
+  .add-padding {
+    padding-left: 15px;
+  }
+  .logo {
+    position: relative;
+    width: 80px;
+    z-index: 1;
+    border: none;
+  }
+  .navbar-collapse {
+    margin-left: 5px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #d0011b;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .form-control.mr-sm-2 {
+    width: 80%;
+  }
+
+  .btn-red {
+    margin-left: 20px;
+  }
+
+  .carousel-item {
+    min-height: 350px;
+    max-height: 350px;
+  }
+
+  .slider {
+    font-size: 26px;
+  }
+
+  img.d-block {
+    height: 100%
+  }
+
+  .carousel-caption h3{
+    font-size: 16px;
+  }
+
+  button.btn.btn-red.join {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .feed-item {
+    margin: 20px 0;
+  }
+
+  .news-side {
+    padding-bottom: 40px;
+  }
+
+  .see-more {
+    padding-left: 15px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  #student {
+    max-height: 250px;
+  }
+
+  #student h1 {
+    font-size: 24px;
+  }
+
+  #student button {
+    width: 90%;
+    height: 40px;
+  }
+
+  .center-it {
+    margin-top: 20%;
+  }
+
+}
