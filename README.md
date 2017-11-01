@@ -43,7 +43,7 @@ showings.
 Beneath the slider you are immediately given what they felt was the most pertinent information:
 How to join/donate, what is coming up this week, and hours of operation. The next most information, and lacking from their current design, was a feed on the homepage to visually scan "News" and "Events" as well as place to draw visual attention to upcoming artists showings.
 Not only was this important content not presented well on the homepage, the location of the
-search bar was hidden at the bottom of the page. I moved that to the top of the page where users have become accustom to seeing as a best practice.  
+search bar was hidden at the bottom of the page. I chose to move it to the top of the page where users have become accustom to seeing as a best practice.  
 
 I approached this from a mobile first approach ensuring the most important information as the
 design collapses to accommodate different device sizes. Overall the design shows what I can accomplish in a short amount of time, and with a few iterations I'm able to provide functional,
